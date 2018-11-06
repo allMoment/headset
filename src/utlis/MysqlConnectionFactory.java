@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class MysqlConnectionFactory {
 	private static final String URL = "jdbc:mysql://127.0.0.1/jdbc";
 	private static final String USER = "root";
-	private static final String PASSWORD = "123456";
+	private static final String PASSWORD = "";
 	static {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
